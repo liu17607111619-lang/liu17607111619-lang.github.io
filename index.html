@@ -1,0 +1,393 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- SEO核心标签 -->
+  <title>刘松林 - 当代诗人、作家 | 中国作家协会会员</title>
+  <meta name="description" content="刘松林，1941年生于湖北省公安县，当代著名诗人、作家，中国作家协会会员，中华诗词学会会员。作品发表于《诗刊》《星星》《长江文艺》《北京文学》等权威刊物，并被海峡两岸多种大型诗选收录。">
+  <meta name="keywords" content="刘松林,诗人,作家,湖北诗人,中国作家协会,中华诗词,醉舞星河,炊烟的内核,当代诗人">
+  <meta name="author" content="刘松林">
+  <meta name="robots" content="index, follow">
+
+  <!-- Open Graph（微信/社交分享用） -->
+  <meta property="og:title" content="刘松林 - 当代诗人、作家">
+  <meta property="og:description" content="中国作家协会会员，作品发表于《诗刊》《星星》《长江文艺》等权威刊物，多次获得重要文学奖项。">
+  <meta property="og:type" content="profile">
+  <meta property="og:locale" content="zh_CN">
+
+  <!-- 结构化数据（帮助Google理解人物信息） -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "name": "刘松林",
+    "birthDate": "1941",
+    "birthPlace": "湖北省公安县",
+    "nationality": "中国",
+    "jobTitle": "诗人、作家",
+    "memberOf": [
+      {"@type": "Organization", "name": "中国作家协会"},
+      {"@type": "Organization", "name": "中华诗词学会"},
+      {"@type": "Organization", "name": "公安县作家协会"}
+    ],
+    "award": [
+      "1992年《人民文学》首届"风流"杯奖",
+      "1997年《长江文艺》诗歌奖",
+      "1999年《星星》诗刊诗歌奖"
+    ],
+    "description": "当代著名诗人、作家，作品在海内外多家权威刊物发表，并被海峡两岸大型诗选收录。"
+  }
+  </script>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@300;400;600;700&family=Noto+Sans+SC:wght@300;400&display=swap" rel="stylesheet">
+
+  <style>
+    :root {
+      --ink: #1a1208;
+      --ink-light: #4a3f2f;
+      --ink-faint: #8a7a66;
+      --paper: #f7f3ec;
+      --paper-warm: #ede8df;
+      --accent: #8b1a1a;
+      --accent-soft: #c4463a;
+      --gold: #b8860b;
+      --rule: rgba(139,26,26,0.18);
+    }
+
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      background: var(--paper);
+      color: var(--ink);
+      font-family: 'Noto Serif SC', 'SimSun', serif;
+      line-height: 1.9;
+      min-height: 100vh;
+    }
+
+    /* 水墨纹理背景 */
+    body::before {
+      content: '';
+      position: fixed;
+      inset: 0;
+      background-image:
+        radial-gradient(ellipse 80% 60% at 15% 20%, rgba(139,26,26,0.04) 0%, transparent 60%),
+        radial-gradient(ellipse 60% 80% at 85% 75%, rgba(184,134,11,0.04) 0%, transparent 60%);
+      pointer-events: none;
+      z-index: 0;
+    }
+
+    .wrapper {
+      position: relative;
+      z-index: 1;
+      max-width: 860px;
+      margin: 0 auto;
+      padding: 3rem 2rem 6rem;
+    }
+
+    /* 顶部印章区域 */
+    .header {
+      display: grid;
+      grid-template-columns: 1fr auto;
+      align-items: start;
+      gap: 2rem;
+      padding-bottom: 2.5rem;
+      border-bottom: 1.5px solid var(--rule);
+      margin-bottom: 3rem;
+    }
+
+    .name-block h1 {
+      font-size: clamp(2.8rem, 7vw, 4.5rem);
+      font-weight: 700;
+      color: var(--ink);
+      letter-spacing: 0.15em;
+      line-height: 1.1;
+      margin-bottom: 0.4rem;
+    }
+
+    .name-block .subtitle {
+      font-family: 'Noto Sans SC', sans-serif;
+      font-size: 0.9rem;
+      font-weight: 300;
+      color: var(--ink-faint);
+      letter-spacing: 0.3em;
+      text-transform: uppercase;
+    }
+
+    /* 朱红印章 */
+    .seal {
+      width: 88px;
+      height: 88px;
+      border: 2px solid var(--accent);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      writing-mode: vertical-rl;
+      font-size: 1.1rem;
+      font-weight: 600;
+      color: var(--accent);
+      letter-spacing: 0.1em;
+      flex-shrink: 0;
+      position: relative;
+    }
+    .seal::before, .seal::after {
+      content: '';
+      position: absolute;
+      inset: 3px;
+      border: 1px solid rgba(139,26,26,0.3);
+    }
+    .seal::after { inset: 5px; }
+
+    /* 标签徽章 */
+    .badges {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.5rem;
+      margin: 1.5rem 0 2rem;
+    }
+    .badge {
+      font-family: 'Noto Sans SC', sans-serif;
+      font-size: 0.78rem;
+      font-weight: 400;
+      padding: 0.25rem 0.75rem;
+      border: 1px solid var(--rule);
+      color: var(--ink-light);
+      letter-spacing: 0.05em;
+      background: rgba(255,255,255,0.5);
+    }
+    .badge.highlight {
+      border-color: var(--accent);
+      color: var(--accent);
+      background: rgba(139,26,26,0.04);
+    }
+
+    /* 章节 */
+    .section {
+      margin-bottom: 2.8rem;
+    }
+
+    .section-label {
+      font-family: 'Noto Sans SC', sans-serif;
+      font-size: 0.72rem;
+      font-weight: 400;
+      letter-spacing: 0.4em;
+      color: var(--ink-faint);
+      text-transform: uppercase;
+      margin-bottom: 1rem;
+      display: flex;
+      align-items: center;
+      gap: 0.8rem;
+    }
+    .section-label::after {
+      content: '';
+      flex: 1;
+      height: 1px;
+      background: var(--rule);
+    }
+
+    /* 正文段落 */
+    .bio-text {
+      font-size: 1.02rem;
+      color: var(--ink-light);
+      line-height: 2.1;
+      text-align: justify;
+    }
+
+    /* 名家评语 */
+    .quote-block {
+      margin: 0;
+      padding: 1.5rem 2rem;
+      border-left: 3px solid var(--accent);
+      background: rgba(255,255,255,0.55);
+      position: relative;
+    }
+    .quote-block::before {
+      content: '❝';
+      position: absolute;
+      top: 0.8rem;
+      left: -0.1rem;
+      font-size: 2rem;
+      color: var(--accent);
+      line-height: 1;
+      transform: translateX(-50%);
+      background: var(--paper);
+      padding: 0 0.2rem;
+    }
+    .quote-block p {
+      font-size: 1rem;
+      color: var(--ink);
+      line-height: 2;
+      font-style: italic;
+    }
+    .quote-source {
+      margin-top: 0.8rem;
+      font-family: 'Noto Sans SC', sans-serif;
+      font-size: 0.82rem;
+      color: var(--ink-faint);
+      font-style: normal;
+    }
+
+    /* 出版物列表 */
+    .works-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+      gap: 0.8rem;
+    }
+    .work-item {
+      padding: 0.8rem 1rem;
+      background: rgba(255,255,255,0.6);
+      border: 1px solid var(--rule);
+      font-size: 0.92rem;
+      color: var(--ink-light);
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+    }
+    .work-item::before {
+      content: '◈';
+      color: var(--gold);
+      font-size: 0.7rem;
+      flex-shrink: 0;
+    }
+
+    /* 奖项 */
+    .awards-list {
+      list-style: none;
+      display: flex;
+      flex-direction: column;
+      gap: 0.6rem;
+    }
+    .awards-list li {
+      display: flex;
+      align-items: baseline;
+      gap: 0.8rem;
+      font-size: 0.95rem;
+      color: var(--ink-light);
+    }
+    .award-year {
+      font-family: 'Noto Sans SC', sans-serif;
+      font-size: 0.78rem;
+      color: var(--accent);
+      font-weight: 600;
+      letter-spacing: 0.05em;
+      flex-shrink: 0;
+      min-width: 3em;
+    }
+
+    /* 刊物列表 */
+    .journals {
+      font-family: 'Noto Sans SC', sans-serif;
+      font-size: 0.9rem;
+      color: var(--ink-light);
+      line-height: 2.2;
+    }
+    .journals span {
+      display: inline-block;
+      margin: 0.2rem 0.4rem;
+      padding: 0.15rem 0.5rem;
+      border: 1px solid rgba(139,26,26,0.2);
+      background: rgba(255,255,255,0.4);
+      color: var(--ink-light);
+    }
+
+    /* 底部 */
+    .footer-rule {
+      margin-top: 4rem;
+      padding-top: 1.5rem;
+      border-top: 1.5px solid var(--rule);
+      font-family: 'Noto Sans SC', sans-serif;
+      font-size: 0.75rem;
+      color: var(--ink-faint);
+      letter-spacing: 0.1em;
+      text-align: center;
+    }
+
+    @media (max-width: 600px) {
+      .wrapper { padding: 2rem 1.2rem 4rem; }
+      .header { grid-template-columns: 1fr; }
+      .seal { display: none; }
+      .works-grid { grid-template-columns: 1fr 1fr; }
+    }
+  </style>
+</head>
+<body>
+<main class="wrapper">
+
+  <header class="header">
+    <div class="name-block">
+      <h1>刘松林</h1>
+      <p class="subtitle">Liú Sōnglín · Poet &amp; Author · Est. 1941</p>
+    </div>
+    <div class="seal" aria-hidden="true">松林诗稿</div>
+  </header>
+
+  <div class="badges">
+    <span class="badge highlight">中国作家协会会员</span>
+    <span class="badge highlight">中华诗词学会会员</span>
+    <span class="badge">公安县作家协会名誉主席</span>
+    <span class="badge">当代诗人</span>
+    <span class="badge">当代作家</span>
+    <span class="badge">湖北 · 1941年生</span>
+  </div>
+
+  <section class="section" itemscope itemtype="https://schema.org/Person">
+    <div class="section-label">作者简介</div>
+    <p class="bio-text" itemprop="description">
+      刘松林，1941年出生于湖北省公安县，祖籍湖南省长沙县，大专学历。当代著名诗人、作家，<strong>中国作家协会会员</strong>，中华诗词学会会员，公安县作家协会名誉主席。作品在海内外广泛发表，兼具现代汉语诗与古典诗词两条脉络，以历史人物诗见长，意象新奇独创，在省内、全国乃至海内外均具较大影响。
+    </p>
+  </section>
+
+  <section class="section">
+    <div class="section-label">发表刊物</div>
+    <div class="journals">
+      <span>《诗刊》</span><span>《星星》</span><span>《中华诗词》</span>
+      <span>《绿风》</span><span>《扬子江诗刊》</span><span>《长江文艺》</span>
+      <span>《北京文学》</span><span>《诗词》报</span>
+      <span>《创世纪》（台湾）</span><span>《休斯敦诗苑》（美国）</span>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="section-label">主要著作</div>
+    <div class="works-grid">
+      <div class="work-item">《醉舞星河》（之一）</div>
+      <div class="work-item">《醉舞星河》（之二）</div>
+      <div class="work-item">《刘松林诗选》</div>
+      <div class="work-item">《炊烟的内核》</div>
+      <div class="work-item">《刘松林文集》</div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="section-label">所获奖项</div>
+    <ul class="awards-list">
+      <li><span class="award-year">1992</span>《人民文学》首届"风流"杯奖</li>
+      <li><span class="award-year">1997</span>《长江文艺》诗歌奖</li>
+      <li><span class="award-year">1999</span>《星星》诗刊诗歌奖</li>
+    </ul>
+  </section>
+
+  <section class="section">
+    <div class="section-label">选本收录</div>
+    <p class="bio-text">
+      作品选入《湖北新时期文学大系·诗歌卷》《湖北新诗百年诗选》《长江文艺60年诗歌选》《中外华文新诗总鉴》《中外华文散文诗作家大辞典》等数十种选本，并连续五年被台湾出版的《中国诗歌选》选入。代表作《与初唐四杰相握》（组诗）于1995年同时被大陆《中国诗歌年鉴》（1994卷）与台湾《中国诗歌选》收录，开创同一作品被海峡两岸大型诗选不谋而合共同选中的先例。
+    </p>
+  </section>
+
+  <section class="section">
+    <div class="section-label">名家评语</div>
+    <blockquote class="quote-block">
+      <p>刘松林的诗情意质朴，浑厚，凝聚着悠悠的民族传统精神和现实生活情趣，特别是写历史人物的诗意象新奇、独创，别具一格，在省内、全国乃至海内外，都有较大的影响。</p>
+      <p class="quote-source">—— 牛汉，《当代文学史》著名诗人、评论家</p>
+    </blockquote>
+  </section>
+
+  <footer class="footer-rule">
+    <p>刘松林 · 当代诗人、作家 · 中国作家协会会员 · 湖北省公安县</p>
+  </footer>
+
+</main>
+</body>
+</html>
